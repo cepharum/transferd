@@ -194,3 +194,7 @@ Requests same action as before.
     node client.js -s my.example.com --nossl get /test.file <<<"token"
     
 Fetches file `test.file` from host `my.example.com` over unencrypted connection.
+
+    node client.js -s my.example.com --nossl delete /test.file <<<"token"
+    
+Request to delete file `test.file` on host `my.example.com` over unencrypted connection.
